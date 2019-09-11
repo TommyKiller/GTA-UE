@@ -1,0 +1,13 @@
+program GTAUE;
+
+uses
+  Forms,
+  UnitGame in 'UnitGame.pas' {Game};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TGame, Game);
+  Application.Run;
+end.
